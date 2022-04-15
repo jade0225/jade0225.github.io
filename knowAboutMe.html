@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<form method="get" name="f" id="form1">
+<table border="1">
+<tr valign="top">
+
+<td>这行字的作者是：
+ <input type="text" id="f_name" name="f_name"><br />
+ 年龄：
+
+ <input type="text" id="age" name="age"><br />
+ 我的爱好：
+ <select name="handsome" id="handsome">
+ <option value="抽烟">抽烟</option>
+ <option value="喝酒">喝酒</option>
+ <option value="烫头">烫头</option>
+ <option value="遛鸟">遛鸟</option>
+ <option value="在原神里捡亮晶晶的东西">在原神里捡亮晶晶的东西</option>
+ </select>
+
+ </td>
+
+<td align="center">对俺说三个字：<br />
+<textarea rows="10" cols="30" id="threeword" name="threeword"></textarea><br />
+<input type="submit" value="提交" onClick="return getMessage();">
+</table>
+</form>
+
+<script type="text/javascript">
+function getMessage()
+{
+var bian2=f.f_name.value;
+if(bian2=="翟文玉"){
+alert("名字填写正确")
+}else{
+alert("名字都能不对，再想想！")
+}
+
+var bian3=f.age.value;
+if(bian3=="20"){
+alert("年龄回答正确")
+}else{
+alert("年龄都能不低，再想想！")
+}
+
+var bian4=f.handsome.value;
+if(bian4=="在原神里捡亮晶晶的东西"){
+alert("太厉害了吧，快把摄像头拆掉啦！")
+}else{
+alert("我不是于谦！提示：三短一长选一长")
+}
+
+var bian5=f.threeword.value;
+if(bian5=="谢谢你"){
+alert("谢谢你，因为你，温暖了四季！")
+}else{
+alert("说啥呢？提示：……因为你，温暖了四季")
+}
+}
+
+</script>
+</body>
+
+</html>
