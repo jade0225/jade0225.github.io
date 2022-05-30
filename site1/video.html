@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>海贼王</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/video.css">
+	<link rel="shortcut icon" href="img/logo.png">
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid navbar-fixed-top">
+		<div class="row logoNavTop">
+			<div class="col-lg-4 col-md-5 col-sm-6 myTop ">
+				<a href="#">水手</a><span>|</span>
+				<a href="#">航海员</a><span>|</span>
+				<a href="#">航海员的生活</a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6 hidden-xs">
+				<span class="glyphicon glyphicon-music"></span><a href="#">音乐</a>
+				<span class="glyphicon glyphicon-film"></span><a href="#">电影</a>
+				<span class="glyphicon glyphicon-download"></span><a href="#">下载</a>
+
+			</div>
+		</div>
+		<div class="row hidden-lg hidden-md hidden-sm logoNavTop">
+			<div class="col-sm-12 ">
+				<span class="glyphicon glyphicon-music"></span><a href="#">音乐</a>
+				<span class="glyphicon glyphicon-film"></span><a href="#">电影</a>
+				<span class="glyphicon glyphicon-download"></span><a href="#">下载</a>
+
+
+			</div>
+		</div>
+		<div class="row">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#myModal"
+						aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="./index.html">
+						<img src="img/hzwlogo.png" width="200px">
+					</a>
+				</div>
+
+				<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav" id="myNav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">故事介绍
+							</a>
+							<ul class="dropdown-menu " id="myMenu">
+								<li><a href="#">剧情简介</a></li>
+								<li><a href="#">扉页连载</a></li>
+
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">角色介绍
+							</a>
+							<ul class="dropdown-menu" id="myMenu">
+								<li><a href="#">草帽一伙</a></li>
+								<li><a href="#">四皇</a></li>
+								<li><a href="#">王下七武海</a></li>
+								<li><a href="#">极恶的世代</a></li>
+								<li><a href="#">海军</a></li>
+								<li><a href="#">革命军</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">用语解说</a>
+							<ul class="dropdown-menu" id="myMenu">
+								<li><a href="#">地理设定</a></li>
+								<li><a href="#">世界政府</a></li>
+								<li><a href="#">悬赏金</a></li>
+								<li><a href="#">历史本文</a></li>
+								<li><a href="#">古代兵器</a></li>
+								<li><a href="#">世界种族</a></li>
+								<li><a href="#">恶魔果实</a></li>
+								<li><a href="#">霸气</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">追番索引</a>
+							<ul class="dropdown-menu" id="myMenu">
+								<li><a href="#">动漫</a></li>
+								<li><a href="#">电影</a></li>
+								<li><a href="./photo.html">相册</a></li>
+								<li><a href="#">专栏</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">关于我们</a>
+							<ul class="dropdown-menu" id="myMenu">
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">QQ微信</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<img src="img/hzwlogo.png" width="150px">
+				</div>
+				<div class="modal-body">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+										aria-expanded="true" aria-controls="collapseOne">
+										角色介绍
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+								aria-labelledby="headingOne">
+								<div class="panel-body">
+									<a href="#">蒙奇·D·路飞</a>
+									<a href="#">罗罗诺亚·索隆</a>
+									<a href="#">娜美</a>
+									<a href="#">托尼托尼·乔巴</a>
+									<a href="#">妮可·罗宾</a>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+										href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										恶魔果实
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+								aria-labelledby="headingTwo">
+								<div class="panel-body">
+									<a href="#">橡胶果实</a>
+									<a href="#">烧烧果实</a>
+									<a href="#">人人果实</a>
+									<a href="#">花花果实</a>
+									<a href="#">黄泉果实</a>
+									<a href="#">佛祖果实</a>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingThree">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+										href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										海贼团
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+								aria-labelledby="headingThree">
+								<div class="panel-body">
+									<a href="#">草帽海贼团</a>
+									<a href="#">罗杰海贼团</a>
+									<a href="#">恶龙海贼团</a>
+									<a href="#">基德海贼团</a>
+									<a href="#">福克西海贼团</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<div class="mycontent">
+		<div class="mydiv">
+			<video src="video/001.mp4" class="myvideo" autoplay="autoplay" controls="controls"
+				loop="loop">浏览器不支持video标签</video>
+		</div>
+		<div class="my-content1">
+			<div class="text-center" style="margin-bottom: 10px;">
+				<h1>
+					<img src="./images/role/01.png" style="width: 80px; height: 80px;" />剪辑视频
+				</h1>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<video src="video/001.mp4" class="panel-heading" autoplay="autoplay" controls="controls"
+								loop="loop">浏览器不支持video标签</video>
+							<textarea> “大海如此宽广，有一天你一定会遇见温柔的人们”</textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<video src="video/002.mp4" class="panel-heading" autoplay="autoplay" controls="controls"
+								loop="loop">浏览器不支持video标签</video>
+							<textarea> “大海如此宽广，有一天你一定会遇见温柔的人们”</textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<video src="video/001.mp4" class="panel-heading" autoplay="autoplay" controls="controls"
+								loop="loop">浏览器不支持video标签</video>
+							<textarea> “大海如此宽广，有一天你一定会遇见温柔的人们”</textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<video src="video/001.mp4" class="panel-heading" autoplay="autoplay" controls="controls"
+								loop="loop">浏览器不支持video标签</video>
+							<textarea> “大海如此宽广，有一天你一定会遇见温柔的人们”</textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="container-fluid" id="footer">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footerLeft">
+			<p>版权所有 © 所有航海王 ICP备1314520号-1 官网95267710号</p>
+			<p>总部地区：海贼王世界里整个海军组织的中心部分，是海军的最强战力，邮编：430023</p>
+			<p>航海王地区：女儿岛位于无风带，而无风带是动漫中非常危险的海域， 邮编：430048</p>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-right footerRight">
+			<ul class="list-unstyled list-inline">
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">欢迎投稿</a></li>
+				<li><a href="#">航海中心</a></li>
+				<li><a href="#">纪检举报</a></li>
+				<li><img src="img/bszs.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/EasyLazyload.min.js"></script>
+	<script>
+		lazyLoadInit({
+			showTime: 1100,
+			onLoadBackEnd: function (i, e) {
+				console.log("onLoadBackEnd:" + i);
+			},
+			onLoadBackStart: function (i, e) {
+				console.log("onLoadBackStart:" + i);
+			}
+		});
+	</script>
+</body>
+
+</html>
